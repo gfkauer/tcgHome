@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebaseConfig: {
+    apiKey: "AIzaSyBM7x4DUfqmgXzmNzEbrug9-ZDgUCQutAM",
+  authDomain: "pkmn-tcg-api.firebaseapp.com",
+  databaseURL: "https://pkmn-tcg-api.firebaseio.com",
+  projectId: "pkmn-tcg-api",
+  storageBucket: "pkmn-tcg-api.appspot.com",
+  messagingSenderId: "970765390935",
+  appId: "1:970765390935:web:b93603f7d0aea2b154ff12"
+  }
 };
 
 /*
